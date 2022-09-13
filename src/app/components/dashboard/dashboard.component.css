@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+*{
+  box-sizing: border-box;
+}
+
+.bdy, html {
+   font-family: 'Roboto Slab', serif;
+   margin: 0;
+   width: 100%;
+   height: 100%;
+   padding: 0;
+}
+
+.bdy {
+  background-color: #efefff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 820px;
+    
+}
+
+.card--1 .card__img, .card--1 .card__img--hover {
+    background-image: url('./stockprice.jpg');
+    
+}
+
+.card--2 .card__img, .card--2 .card__img--hover {
+    background-image: url('pic2.png');
+
+}
+
+.card--3 .card__img, .card--3 .card__img--hover {
+  background-image: url('./mutualfund.jpg');
+}
+
+.card__img {
+    visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
+  
+}
+
+.card__info-hover {
+  position: absolute;
+  padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.card__img--hover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+  
+}
+.card {
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  background-color: #fff;
+  width: 53%;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.267);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+  border-color: white;
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+  transform: scale(1.10, 1.10);
+  border-color: #9999ff;
+  /* border-color:#6dc77a;  */
+ 
+}
+
+.card__info {
+  z-index: 2;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+}
+
+.card__category {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+}
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: Inter;
+    font-size: large;
+    font-weight:bold;
+}
+
+.card:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__info {
+    background-color: transparent;
+    position: relative;
+}
+
+.card:hover .card__info-hover {
+    opacity: 1;
+}
+
+button {
+  width: 100%;
+  border: none;
+  padding: 14px;
+  border-radius: 3px;
+}
+
+button {
+  /* background-image: linear-gradient(to right, #89CAFF, #ec8dff); */
+  background: linear-gradient(to right, #5b57f2 0%, #9999ff  100%);
+  display: block;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 5px 20px #89caff94;
+  transition: box-shadow .3s ease-in-out;
+}
+
+button:hover {
+  box-shadow: none;
+  background: #6dc77a;
+  border-color:#6dc77a; 
+}
+
+.card0 {
+    background-color:#efefff;
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 5px;
+}
