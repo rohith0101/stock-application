@@ -1,0 +1,550 @@
+"2022-03-11 10:02:09 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.1 on DESKTOP-40I8RBI with PID 3504 (E:\Final-Project\ecclipse workspace\DailyMutualFundNAV\target\classes started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 10:02:09 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 10:02:09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-03-11 10:02:09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-03-11 10:02:13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 10:02:13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 104 ms. Found 1 JPA repository interfaces.
+""2022-03-11 10:02:14 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e84946eb-5f8a-3fb9-8862-03e2e6f71411
+""2022-03-11 10:02:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-03-11 10:02:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-11 10:02:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-11 10:02:23 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-11 10:02:23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 13235 ms
+""2022-03-11 10:02:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-11 10:02:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-11 10:02:23 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 10:02:25 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 10:02:25 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-11 10:02:25 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-11 10:02:26 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 10:02:27 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 10:02:27 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 10:02:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 10:02:30 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-03-11 10:02:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-03-11 10:02:40 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 32.529 seconds (JVM running for 34.376)
+""2022-03-11 10:05:25 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-03-11 10:05:25 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-03-11 10:05:26 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 97 ms
+""2022-03-11 10:05:26 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:05:26 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:05:27 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:05:27 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:12:30 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:12:30 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:12:39 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:12:39 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:12:45 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:12:45 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:12:55 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:12:55 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:13:00 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:13:00 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:13:11 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:13:11 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:14:19 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:14:19 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:14:42 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:14:42 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:15:44 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:15:44 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:16:23 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:17:11 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:19:37 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 10:20:08 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 12:44:07 [main] INFO  c.c.d.service.MutualFundServiceTest - Starting MutualFundServiceTest using Java 17.0.1 on DESKTOP-40I8RBI with PID 3160 (started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 12:44:07 [main] INFO  c.c.d.service.MutualFundServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 12:44:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 12:44:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interfaces.
+""2022-03-11 12:44:13 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=80eb5034-2b3d-3f6a-a91e-56718d1acf68
+""2022-03-11 12:44:15 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-11 12:44:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-11 12:44:17 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 12:44:17 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-11 12:44:17 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-11 12:44:18 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 12:44:19 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 12:44:19 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 12:44:19 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 12:44:20 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 12:44:24 [main] INFO  c.c.d.service.MutualFundServiceTest - Started MutualFundServiceTest in 18.833 seconds (JVM running for 25.421)
+""2022-03-11 12:44:24 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.dailymutualfundnav.model.MutualFundTest], using SpringBootContextLoader
+""2022-03-11 12:44:24 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.dailymutualfundnav.model.MutualFundTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-03-11 12:44:24 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.dailymutualfundnav.model.MutualFundTest]: MutualFundTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-03-11 12:44:24 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.dailymutualfundnav.DailyMutualFundNavApplication for test class com.cts.dailymutualfundnav.model.MutualFundTest
+""2022-03-11 12:44:24 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-03-11 12:44:24 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11f80670, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4c7df19b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6519cd8a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@51623da1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@786a7b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@232ab2c6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@8f44eb4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@48bbf53e, org.springframework.test.context.event.EventPublishingTestExecutionListener@b5375e0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7d194ace, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@57323a37, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@403727ea, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@505ba679, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6723c986, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2106b4d7]
+""2022-03-11 12:44:24 [main] INFO  c.c.d.model.MutualFundTest - Starting MutualFundTest using Java 17.0.1 on DESKTOP-40I8RBI with PID 3160 (started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 12:44:24 [main] INFO  c.c.d.model.MutualFundTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 12:44:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 12:44:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+""2022-03-11 12:44:26 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=80eb5034-2b3d-3f6a-a91e-56718d1acf68
+""2022-03-11 12:44:26 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-03-11 12:44:26 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-03-11 12:44:26 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 12:44:26 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 12:44:26 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 12:44:26 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 12:44:27 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 12:44:27 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 12:44:29 [main] INFO  c.c.d.model.MutualFundTest - Started MutualFundTest in 4.472 seconds (JVM running for 30.31)
+""2022-03-11 12:44:29 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.dailymutualfundnav.DailyMutualFundNavApplicationTests], using SpringBootContextLoader
+""2022-03-11 12:44:29 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.dailymutualfundnav.DailyMutualFundNavApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-03-11 12:44:29 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.dailymutualfundnav.DailyMutualFundNavApplicationTests]: DailyMutualFundNavApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-03-11 12:44:29 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.dailymutualfundnav.DailyMutualFundNavApplication for test class com.cts.dailymutualfundnav.DailyMutualFundNavApplicationTests
+""2022-03-11 12:44:29 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-03-11 12:44:29 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@63f34001, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@292a6cfd, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@244160dc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@37b55045, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4e3fedfa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@34882d44, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1b60fc89, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6cab0d8, org.springframework.test.context.event.EventPublishingTestExecutionListener@372bcdc6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@423c246a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5ea40c10, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@d3b2b6c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@641792f0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@472bf56c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3911b515]
+""2022-03-11 12:44:29 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.dailymutualfundnav.controller.MutualFundControllerTest], using SpringBootContextLoader
+""2022-03-11 12:44:29 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.dailymutualfundnav.controller.MutualFundControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-03-11 12:44:29 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.dailymutualfundnav.controller.MutualFundControllerTest]: MutualFundControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-03-11 12:44:29 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.dailymutualfundnav.DailyMutualFundNavApplication for test class com.cts.dailymutualfundnav.controller.MutualFundControllerTest
+""2022-03-11 12:44:29 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-03-11 12:44:29 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2a5320a8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d1c20f, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@683f364, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@a5ef815, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@393bcf96, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3172b304, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28f36e9d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5590a5c6, org.springframework.test.context.event.EventPublishingTestExecutionListener@3230879d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@16fef84c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@25cafb88, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7524c462, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@439eb934, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@22431593, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@50a7ace8]
+""2022-03-11 12:44:29 [main] INFO  c.c.d.c.MutualFundControllerTest - Starting MutualFundControllerTest using Java 17.0.1 on DESKTOP-40I8RBI with PID 3160 (started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 12:44:29 [main] INFO  c.c.d.c.MutualFundControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 12:44:30 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-11 12:44:30 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-11 12:44:30 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-11 12:44:30 [main] INFO  c.c.d.c.MutualFundControllerTest - Started MutualFundControllerTest in 1.321 seconds (JVM running for 31.904)
+""2022-03-11 12:44:30 [main] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 12:44:31 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 12:44:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-11 12:44:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-11 12:44:31 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 12:44:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-03-11 12:44:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-03-11 14:39:02 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.1 on DESKTOP-40I8RBI with PID 10208 (E:\Final-Project\ecclipse workspace\DailyMutualFundNAV\target\classes started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 14:39:02 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 14:39:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-03-11 14:39:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-03-11 14:39:06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 14:39:06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 127 ms. Found 1 JPA repository interfaces.
+""2022-03-11 14:39:07 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e84946eb-5f8a-3fb9-8862-03e2e6f71411
+""2022-03-11 14:39:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-03-11 14:39:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-11 14:39:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-11 14:39:09 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-11 14:39:09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6182 ms
+""2022-03-11 14:39:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-11 14:39:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-11 14:39:09 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 14:39:09 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 14:39:09 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-11 14:39:10 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-11 14:39:10 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 14:39:11 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 14:39:11 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 14:39:11 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 14:39:11 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-03-11 14:39:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-03-11 14:39:13 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 12.605 seconds (JVM running for 14.494)
+""2022-03-11 14:41:38 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-03-11 14:41:38 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-03-11 14:41:38 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 53 ms
+""2022-03-11 14:41:39 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 14:41:39 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 14:41:39 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 14:41:39 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 14:54:24 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 14:54:24 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 14:55:00 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 14:55:00 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 14:55:12 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 14:55:12 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 14:55:27 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 14:55:27 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 15:15:18 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 15:15:18 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 15:30:04 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 15:30:05 [Thread-1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-03-11 15:30:05 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-11 15:30:05 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-11 15:30:07 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.1 on DESKTOP-40I8RBI with PID 10208 (E:\Final-Project\ecclipse workspace\DailyMutualFundNAV\target\classes started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 15:30:07 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 15:30:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 15:30:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+""2022-03-11 15:30:10 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e84946eb-5f8a-3fb9-8862-03e2e6f71411
+""2022-03-11 15:30:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-03-11 15:30:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-11 15:30:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-11 15:30:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-11 15:30:11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4563 ms
+""2022-03-11 15:30:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-03-11 15:30:12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-03-11 15:30:12 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 15:30:13 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 15:30:13 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 15:30:13 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 15:30:13 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 15:30:14 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 15:30:14 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-03-11 15:30:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-03-11 15:30:16 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 10.236 seconds (JVM running for 3078.117)
+""2022-03-11 15:30:16 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-03-11 15:30:17 [main] INFO  c.c.d.service.MutualFundServiceTest - Starting MutualFundServiceTest using Java 17.0.1 on DESKTOP-40I8RBI with PID 7832 (started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 15:30:17 [main] INFO  c.c.d.service.MutualFundServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 15:30:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 15:30:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interfaces.
+""2022-03-11 15:30:20 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=80eb5034-2b3d-3f6a-a91e-56718d1acf68
+""2022-03-11 15:30:23 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-11 15:30:23 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-11 15:30:24 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 15:30:24 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-11 15:30:24 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-11 15:30:24 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 15:30:25 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 15:30:25 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 15:30:25 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 15:30:26 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 15:30:28 [main] INFO  c.c.d.service.MutualFundServiceTest - Started MutualFundServiceTest in 12.65 seconds (JVM running for 26.32)
+""2022-03-11 15:30:29 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.dailymutualfundnav.model.MutualFundTest], using SpringBootContextLoader
+""2022-03-11 15:30:29 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.dailymutualfundnav.model.MutualFundTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-03-11 15:30:29 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.dailymutualfundnav.model.MutualFundTest]: MutualFundTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-03-11 15:30:29 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.dailymutualfundnav.DailyMutualFundNavApplication for test class com.cts.dailymutualfundnav.model.MutualFundTest
+""2022-03-11 15:30:29 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-03-11 15:30:29 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16107de0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32691c30, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5aa1ba39, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ac87594, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4fa2ec50, org.springframework.test.context.support.DirtiesContextTestExecutionListener@35d0f108, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62f7e5f9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7b0a48e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@2392ebbb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@11f80670, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4c7df19b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6519cd8a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@51623da1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@786a7b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@232ab2c6]
+""2022-03-11 15:30:29 [main] INFO  c.c.d.model.MutualFundTest - Starting MutualFundTest using Java 17.0.1 on DESKTOP-40I8RBI with PID 7832 (started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 15:30:29 [main] INFO  c.c.d.model.MutualFundTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 15:30:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 15:30:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+""2022-03-11 15:30:29 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=80eb5034-2b3d-3f6a-a91e-56718d1acf68
+""2022-03-11 15:30:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-03-11 15:30:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-03-11 15:30:30 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 15:30:30 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 15:30:30 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 15:30:30 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 15:30:30 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 15:30:30 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 15:30:31 [main] INFO  c.c.d.model.MutualFundTest - Started MutualFundTest in 2.796 seconds (JVM running for 29.388)
+""2022-03-11 15:30:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.dailymutualfundnav.DailyMutualFundNavApplicationTests], using SpringBootContextLoader
+""2022-03-11 15:30:31 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.dailymutualfundnav.DailyMutualFundNavApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-03-11 15:30:31 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.dailymutualfundnav.DailyMutualFundNavApplicationTests]: DailyMutualFundNavApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-03-11 15:30:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.dailymutualfundnav.DailyMutualFundNavApplication for test class com.cts.dailymutualfundnav.DailyMutualFundNavApplicationTests
+""2022-03-11 15:30:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-03-11 15:30:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2a56ed77, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@26f70ce0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1fcaab21, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@605da77b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7dfdd352, org.springframework.test.context.support.DirtiesContextTestExecutionListener@63f34001, org.springframework.test.context.transaction.TransactionalTestExecutionListener@292a6cfd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@244160dc, org.springframework.test.context.event.EventPublishingTestExecutionListener@37b55045, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4e3fedfa, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@34882d44, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1b60fc89, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6cab0d8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@372bcdc6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@423c246a]
+""2022-03-11 15:30:32 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.dailymutualfundnav.controller.MutualFundControllerTest], using SpringBootContextLoader
+""2022-03-11 15:30:32 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.dailymutualfundnav.controller.MutualFundControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-03-11 15:30:32 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.dailymutualfundnav.controller.MutualFundControllerTest]: MutualFundControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-03-11 15:30:32 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.dailymutualfundnav.DailyMutualFundNavApplication for test class com.cts.dailymutualfundnav.controller.MutualFundControllerTest
+""2022-03-11 15:30:32 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-03-11 15:30:32 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@65b34858, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@14f04e7d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@17e77934, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@43487352, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3cc612eb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a5320a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d1c20f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@683f364, org.springframework.test.context.event.EventPublishingTestExecutionListener@a5ef815, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@393bcf96, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3172b304, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@28f36e9d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5590a5c6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3230879d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@16fef84c]
+""2022-03-11 15:30:32 [main] INFO  c.c.d.c.MutualFundControllerTest - Starting MutualFundControllerTest using Java 17.0.1 on DESKTOP-40I8RBI with PID 7832 (started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 15:30:32 [main] INFO  c.c.d.c.MutualFundControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 15:30:33 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-11 15:30:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-11 15:30:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-11 15:30:33 [main] INFO  c.c.d.c.MutualFundControllerTest - Started MutualFundControllerTest in 1.228 seconds (JVM running for 30.887)
+""2022-03-11 15:30:33 [main] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 15:30:34 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 15:30:34 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-11 15:30:34 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-11 15:30:34 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 15:30:34 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-03-11 15:30:34 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+""2022-03-11 15:47:49 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.1 on DESKTOP-40I8RBI with PID 5964 (E:\Final-Project\ecclipse workspace\DailyMutualFundNAV\target\classes started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 15:47:49 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 15:47:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-03-11 15:47:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-03-11 15:47:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 15:47:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 262 ms. Found 1 JPA repository interfaces.
+""2022-03-11 15:47:57 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e84946eb-5f8a-3fb9-8862-03e2e6f71411
+""2022-03-11 15:48:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-03-11 15:48:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-11 15:48:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-11 15:48:01 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-11 15:48:01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11811 ms
+""2022-03-11 15:48:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-11 15:48:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-11 15:48:02 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 15:48:04 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 15:48:04 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-11 15:48:05 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-11 15:48:07 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 15:48:10 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 15:48:10 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 15:48:13 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 15:48:13 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-03-11 15:48:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-03-11 15:48:19 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 31.727 seconds (JVM running for 35.746)
+""2022-03-11 15:49:54 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-03-11 15:49:54 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-03-11 15:49:54 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+""2022-03-11 15:49:54 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 15:49:55 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 15:50:51 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 15:50:51 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 15:55:28 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 15:55:28 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:27:05 [main] INFO  c.c.d.service.MutualFundServiceTest - Starting MutualFundServiceTest using Java 17.0.1 on DESKTOP-40I8RBI with PID 6932 (started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 17:27:05 [main] INFO  c.c.d.service.MutualFundServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 17:27:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 17:27:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interfaces.
+""2022-03-11 17:27:09 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=80eb5034-2b3d-3f6a-a91e-56718d1acf68
+""2022-03-11 17:27:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-11 17:27:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-11 17:27:12 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 17:27:12 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-11 17:27:12 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-11 17:27:13 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 17:27:13 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 17:27:13 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 17:27:14 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 17:27:14 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 17:27:19 [main] INFO  c.c.d.service.MutualFundServiceTest - Started MutualFundServiceTest in 14.739 seconds (JVM running for 19.871)
+""2022-03-11 17:27:19 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 17:27:19 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-11 17:27:19 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-11 17:32:16 [main] INFO  c.c.d.c.MutualFundControllerTest - Starting MutualFundControllerTest using Java 17.0.1 on DESKTOP-40I8RBI with PID 1116 (started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 17:32:16 [main] INFO  c.c.d.c.MutualFundControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 17:32:21 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-11 17:32:21 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-11 17:32:21 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+""2022-03-11 17:32:22 [main] INFO  c.c.d.c.MutualFundControllerTest - Started MutualFundControllerTest in 6.639 seconds (JVM running for 12.435)
+""2022-03-11 17:32:22 [main] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:38:48 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.1 on DESKTOP-40I8RBI with PID 4728 (E:\Final-Project\ecclipse workspace\DailyMutualFundNAV\target\classes started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 17:38:48 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 17:38:49 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-03-11 17:38:49 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-03-11 17:39:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 17:39:01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 657 ms. Found 1 JPA repository interfaces.
+""2022-03-11 17:39:02 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e84946eb-5f8a-3fb9-8862-03e2e6f71411
+""2022-03-11 17:39:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-03-11 17:39:07 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-11 17:39:07 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-11 17:39:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-11 17:39:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 19099 ms
+""2022-03-11 17:39:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-11 17:39:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-11 17:39:10 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 17:39:16 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 17:39:17 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-11 17:39:18 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-11 17:39:19 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 17:39:23 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 17:39:23 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 17:39:28 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 17:39:29 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-03-11 17:39:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-03-11 17:39:35 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 52.739 seconds (JVM running for 56.132)
+""2022-03-11 17:41:09 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-03-11 17:41:09 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-03-11 17:41:09 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 64 ms
+""2022-03-11 17:41:09 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:41:10 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:41:51 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:41:52 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:43:32 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:43:32 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:44:34 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:44:34 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:45:11 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:45:11 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:45:33 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:45:33 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:45:46 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:45:46 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:46:25 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:46:25 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:47:02 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:47:02 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:48:02 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:48:03 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:48:28 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:48:28 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:49:12 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:49:12 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:50:06 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:50:06 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:50:29 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:50:29 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:51:33 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:51:33 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:51:47 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:51:48 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:51:53 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:51:53 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:05 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:05 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:18 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:18 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:35 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:35 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:35 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:35 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:43 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:43 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:45 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:45 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:47 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:47 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:58 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:52:58 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:54:17 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:54:17 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:59:21 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 17:59:22 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:00:24 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:00:24 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:00:37 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:00:37 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:01:05 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:01:05 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:01:11 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:01:11 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:06:23 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:06:23 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:07:12 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:07:13 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:08:07 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:08:07 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:08:25 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:08:25 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:09:42 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:09:42 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:10:17 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:10:17 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:10:33 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:10:33 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:11:11 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:11:11 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:11:29 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:11:29 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:11:48 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:11:48 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:13:06 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:13:06 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:13:25 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:13:25 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:14:06 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:14:06 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:15:25 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:15:25 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:15:41 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:15:41 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:16:05 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:16:05 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:16:07 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:16:07 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:18:22 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:18:22 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:18:24 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:18:24 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:19:29 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:19:29 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:19:49 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:19:49 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:20:23 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:20:23 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:20:54 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:20:54 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:21:39 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:21:39 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:21:55 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:21:55 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:22:10 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:22:10 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:22:16 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:22:16 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:22:37 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:22:37 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:23:07 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:23:07 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:36:04 [http-nio-8083-exec-10] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:36:04 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:36:37 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 18:36:37 [http-nio-8083-exec-3] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 20:01:05 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m25s516ms375µs552ns).
+""2022-03-11 20:21:47 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 20:21:48 [Thread-1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-03-11 20:21:48 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-11 20:21:48 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-11 20:21:50 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.1 on DESKTOP-40I8RBI with PID 4728 (E:\Final-Project\ecclipse workspace\DailyMutualFundNAV\target\classes started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 20:21:50 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 20:21:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 20:21:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+""2022-03-11 20:21:51 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e84946eb-5f8a-3fb9-8862-03e2e6f71411
+""2022-03-11 20:21:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-03-11 20:21:52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-11 20:21:52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-11 20:21:52 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-11 20:21:52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2441 ms
+""2022-03-11 20:21:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-03-11 20:21:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-03-11 20:21:53 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 20:21:53 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 20:21:53 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 20:21:53 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 20:21:53 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 20:21:54 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 20:21:54 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-03-11 20:21:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-03-11 20:21:55 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 5.096 seconds (JVM running for 9795.316)
+""2022-03-11 20:21:55 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-03-11 21:07:36 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.1 on DESKTOP-40I8RBI with PID 5740 (E:\Final-Project\ecclipse workspace\DailyMutualFundNAV\target\classes started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 21:07:36 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 21:07:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-03-11 21:07:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-03-11 21:07:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 21:07:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 201 ms. Found 1 JPA repository interfaces.
+""2022-03-11 21:07:44 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e84946eb-5f8a-3fb9-8862-03e2e6f71411
+""2022-03-11 21:07:46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-03-11 21:07:46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-11 21:07:46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-11 21:07:46 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-11 21:07:46 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10115 ms
+""2022-03-11 21:07:46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-11 21:07:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-11 21:07:47 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 21:07:47 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 21:07:47 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-11 21:07:48 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-11 21:07:48 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 21:07:49 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 21:07:49 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 21:07:49 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 21:07:50 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-03-11 21:07:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-03-11 21:07:51 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 17.891 seconds (JVM running for 21.162)
+""2022-03-11 21:24:57 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-03-11 21:24:57 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-03-11 21:24:57 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 158 ms
+""2022-03-11 21:24:58 [http-nio-8083-exec-1] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 21:24:58 [http-nio-8083-exec-2] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 21:29:11 [http-nio-8083-exec-4] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 21:29:11 [http-nio-8083-exec-5] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 21:29:26 [http-nio-8083-exec-6] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 21:29:26 [http-nio-8083-exec-7] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 21:29:57 [http-nio-8083-exec-8] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 21:29:57 [http-nio-8083-exec-9] INFO  c.c.d.c.MutualFundController - Fetching MutualFund using MutualName
+""2022-03-11 21:39:07 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 21:39:08 [Thread-1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-03-11 21:39:08 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-11 21:39:08 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-11 21:39:09 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Starting DailyMutualFundNavApplication using Java 17.0.1 on DESKTOP-40I8RBI with PID 5740 (E:\Final-Project\ecclipse workspace\DailyMutualFundNAV\target\classes started by LENOVO in E:\Final-Project\ecclipse workspace\DailyMutualFundNAV)
+""2022-03-11 21:39:09 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-11 21:39:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-11 21:39:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+""2022-03-11 21:39:10 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e84946eb-5f8a-3fb9-8862-03e2e6f71411
+""2022-03-11 21:39:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+""2022-03-11 21:39:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-11 21:39:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-11 21:39:10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-11 21:39:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1496 ms
+""2022-03-11 21:39:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-03-11 21:39:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-03-11 21:39:10 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-11 21:39:10 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-11 21:39:10 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-11 21:39:10 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-11 21:39:10 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-11 21:39:11 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-11 21:39:11 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-03-11 21:39:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+""2022-03-11 21:39:11 [restartedMain] INFO  c.c.d.DailyMutualFundNavApplication - Started DailyMutualFundNavApplication in 2.284 seconds (JVM running for 1900.898)
+""2022-03-11 21:39:11 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-03-11 21:43:24 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-03-11 21:43:24 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-03-11 21:43:24 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 99 ms
+""2022-03-11 23:09:07 [HikariPool-2 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=31m26s834ms971µs382ns).
+"

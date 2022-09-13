@@ -1,0 +1,404 @@
+"2022-03-13 11:58:32 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.1 on DESKTOP-40I8RBI with PID 924 (E:\Final-Project\ecclipse workspace\DailySharePrice\target\classes started by LENOVO in E:\Final-Project\ecclipse workspace\DailySharePrice)
+""2022-03-13 11:58:32 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-13 11:58:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-03-13 11:58:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-03-13 11:58:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-13 11:58:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 185 ms. Found 1 JPA repository interfaces.
+""2022-03-13 11:58:39 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=06edcab2-3d4f-375c-b803-7ee141e7ed09
+""2022-03-13 11:58:42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-03-13 11:58:42 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-13 11:58:42 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-13 11:58:43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-13 11:58:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9752 ms
+""2022-03-13 11:58:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-13 11:58:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-13 11:58:43 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-13 11:58:44 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-13 11:58:44 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-13 11:58:44 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-13 11:58:45 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-13 11:58:46 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-13 11:58:46 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-13 11:58:47 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-13 11:58:47 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-03-13 11:58:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-03-13 11:58:52 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 22.677 seconds (JVM running for 28.153)
+""2022-03-13 15:10:33 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.1 on DESKTOP-40I8RBI with PID 8752 (E:\Final-Project\ecclipse workspace\DailySharePrice\target\classes started by LENOVO in E:\Final-Project\ecclipse workspace\DailySharePrice)
+""2022-03-13 15:10:33 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-13 15:10:34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-03-13 15:10:34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-03-13 15:10:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-13 15:10:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 264 ms. Found 1 JPA repository interfaces.
+""2022-03-13 15:10:47 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=06edcab2-3d4f-375c-b803-7ee141e7ed09
+""2022-03-13 15:10:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-03-13 15:10:55 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-13 15:10:55 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-13 15:10:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-13 15:10:56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 21779 ms
+""2022-03-13 15:10:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-13 15:10:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-13 15:10:59 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-13 15:11:03 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-13 15:11:03 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-13 15:11:06 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-13 15:11:07 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-13 15:11:11 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-13 15:11:11 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-13 15:11:16 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-13 15:11:18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-03-13 15:11:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-03-13 15:11:36 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 66.31 seconds (JVM running for 70.765)
+""2022-03-13 15:12:08 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-03-13 15:12:08 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-03-13 15:12:08 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+""2022-03-13 15:12:13 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:12:13 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:12:13 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:12:13 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:12:22 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:12:22 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:12:30 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:12:30 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:12:49 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:12:49 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:12:49 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:12:49 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:14:07 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:14:07 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:15:26 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:15:26 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:15:45 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:15:45 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:16:04 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:16:05 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:16:11 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:16:11 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:16:28 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:16:28 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:17:09 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:17:09 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:17:09 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:17:09 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:17:26 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:17:26 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:17:27 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:17:27 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:17:42 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:17:42 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:17:42 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:17:42 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:18:02 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:18:02 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:18:02 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:18:02 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:18:40 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:18:40 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:18:40 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:18:40 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:18:51 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:18:51 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:18:51 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:18:51 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:19:17 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:19:17 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:19:17 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:19:17 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:19:30 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 15:19:30 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:25:23 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.1 on DESKTOP-40I8RBI with PID 9720 (E:\Final-Project\ecclipse workspace\DailySharePrice\target\classes started by LENOVO in E:\Final-Project\ecclipse workspace\DailySharePrice)
+""2022-03-13 16:25:23 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-13 16:25:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-03-13 16:25:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-03-13 16:25:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-13 16:25:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1149 ms. Found 1 JPA repository interfaces.
+""2022-03-13 16:25:49 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=06edcab2-3d4f-375c-b803-7ee141e7ed09
+""2022-03-13 16:26:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-03-13 16:26:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-13 16:26:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-13 16:26:02 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-13 16:26:02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 38148 ms
+""2022-03-13 16:26:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-13 16:26:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-13 16:26:05 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-13 16:26:13 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-13 16:26:13 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-13 16:26:16 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-13 16:26:19 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-13 16:26:30 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-13 16:26:30 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-13 16:26:44 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-13 16:26:46 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-03-13 16:26:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-03-13 16:26:58 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 105.488 seconds (JVM running for 117.413)
+""2022-03-13 16:27:03 [http-nio-8082-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-03-13 16:27:03 [http-nio-8082-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-03-13 16:27:03 [http-nio-8082-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+""2022-03-13 16:27:11 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:27:11 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:27:11 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:27:11 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:27:19 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:27:19 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:27:33 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:27:33 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:29:01 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:29:01 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:29:01 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:29:01 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:30:58 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:30:58 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:31:28 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:31:28 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:31:30 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:31:30 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:31:59 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:31:59 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:32:34 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:32:34 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:32:36 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:32:36 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:32:43 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:32:43 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:33:06 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:33:06 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:33:13 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:33:13 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:33:45 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:33:45 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:33:49 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:33:49 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:34:00 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:34:00 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:34:07 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:34:07 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:34:33 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:34:33 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:38:51 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:38:51 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:38:51 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:38:51 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:39:21 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:39:21 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:39:21 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:39:21 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:39:22 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:39:22 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:39:25 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:39:25 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:39:25 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:39:25 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:40 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:40 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:40 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:40 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:44 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:44 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:47 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:47 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:47 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:47 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:49 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:49 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:54 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:54 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:54 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 16:42:54 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:03 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:03 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:03 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:03 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:08 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:08 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:13 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:13 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:23 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:23 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:23 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:23 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:27 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:27 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:43 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:01:43 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:02:13 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:02:13 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:02:28 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:02:28 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:02:33 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:02:33 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:02:37 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:02:37 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:02:59 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:02:59 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:03:37 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:03:37 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:04:07 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:04:08 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:05:55 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:05:55 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:05:58 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:05:58 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:06:05 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:06:05 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:06:13 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:06:13 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:06:59 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:06:59 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:07:02 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:07:02 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:07:21 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:07:21 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:07:36 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:07:36 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:07:55 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:07:55 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:08:51 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:08:51 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:08:57 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:08:57 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:08:58 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:08:58 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:09:14 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:09:14 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:09:16 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:09:16 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:09:49 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:09:49 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:10:44 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:10:44 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:12:04 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:12:04 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:12:04 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:12:04 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:12:08 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:12:08 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:12:18 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:12:18 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:12:18 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:12:18 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:12:21 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:12:21 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:13 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:13 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:18 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:18 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:18 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:18 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:25 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:25 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:25 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:31 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:31 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:51 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:13:59 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:15:40 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:15:45 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:15:48 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:19:31 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:19:37 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:19:37 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:19:51 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:19:51 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:19:56 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:20:05 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:20:05 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:20:22 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:20:23 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:21:02 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:21:09 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:21:10 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:21:20 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:21:20 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:21:29 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:21:29 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:21:37 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:21:37 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:11 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:11 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:20 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:20 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:20 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:20 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:25 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:25 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:43 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:43 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:43 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:43 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:48 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:48 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:49 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:23:49 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:24:38 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:24:38 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:24:38 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:24:38 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:24:52 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:24:52 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:24:52 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:24:52 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:25:25 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:25:25 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:25:26 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:25:26 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:25:40 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:25:40 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:26:11 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 17:26:11 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:35:39 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.1 on DESKTOP-40I8RBI with PID 9012 (E:\Final-Project\ecclipse workspace\DailySharePrice\target\classes started by LENOVO in E:\Final-Project\ecclipse workspace\DailySharePrice)
+""2022-03-13 18:35:39 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-13 18:35:39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-03-13 18:35:39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-03-13 18:35:42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-13 18:35:42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interfaces.
+""2022-03-13 18:35:44 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=06edcab2-3d4f-375c-b803-7ee141e7ed09
+""2022-03-13 18:35:46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-03-13 18:35:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-13 18:35:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-13 18:35:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-13 18:35:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8601 ms
+""2022-03-13 18:35:48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-13 18:35:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-13 18:35:49 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-03-13 18:35:50 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-13 18:35:51 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-13 18:35:52 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-13 18:35:53 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-13 18:35:55 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-13 18:35:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-13 18:35:56 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-13 18:35:57 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-03-13 18:36:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-03-13 18:36:05 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 28.696 seconds (JVM running for 30.597)
+""2022-03-13 18:36:30 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-03-13 18:36:30 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-03-13 18:36:30 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+""2022-03-13 18:36:31 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:36:31 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:36:35 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:36:35 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:36:35 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:36:35 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:36:43 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:36:43 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:36:43 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:36:43 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:36:51 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:36:51 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:37:02 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:37:02 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:37:02 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:37:02 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:37:37 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:37:38 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:37:45 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:38:03 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:38:03 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:38:26 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:38:26 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:38:58 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:38:58 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:39:41 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:39:41 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:39:41 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+""2022-03-13 18:39:41 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Mutual Fund using mutualFundName
+"
